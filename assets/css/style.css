@@ -10783,7 +10783,7 @@ textarea.form-control-lg {
 }
 
 html * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", serif !important;
 }
 
 .display-2 {
@@ -10792,7 +10792,7 @@ html * {
 }
 .display-2--intro {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 800;
 }
 .display-2--description {
   font-size: 1rem;

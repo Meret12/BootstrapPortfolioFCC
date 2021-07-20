@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 html * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', serif !important;
   }
 
 .display-2 {
@@ -10,7 +10,7 @@ html * {
 
   &--intro {
     display: inline-block;
-    font-weight: 700;
+    font-weight: 800;
   }
 
   &--description {
