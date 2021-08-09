@@ -10927,7 +10927,7 @@ textarea.form-control-lg {
 }
 .testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 2rem 1.25;
+  padding: 2rem 1.25rem;
   border-radius: 0.62rem;
   height: auto;
   text-align: center;
