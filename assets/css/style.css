@@ -10944,6 +10944,11 @@ textarea.form-control-lg {
   width: 6rem;
   height: 6rem;
   position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials__picture img {
+  border: 0.325rem solid rgba(153, 38, 240, 0.7);
 }
 
 /*# sourceMappingURL=style.css.map */
