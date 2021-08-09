@@ -5,4 +5,34 @@
   position: relative;
   padding: 0;
   @include gradient;
+
+  &__card {
+    background-color: rgba($white, 0.8);
+    padding: 2rem 1.25;
+    border-radius: 0.62rem;
+    height: auto;
+    text-align: center;
+
+    i {
+      font-size: 1.5rem;
+      color: rgba($primary, 0.7);
+    }
+
+    .ratings {
+
+
+      i {
+        color: color: rgba($primary, 0.7);
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__picture {
+
+  }
+
+  &__name {
+
+  }
 }
