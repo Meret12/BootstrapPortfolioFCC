@@ -9,7 +9,7 @@
   &__card {
     background-color: rgba($white, 0.8);
     padding: 2rem 1.25rem;
-    border-radius: 0.62rem;
+    border-radius: 0.625rem;
     height: auto;
     text-align: center;
 
@@ -41,6 +41,20 @@
   }
 
   &__name {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    color: $white;
 
+    h3 {
+      padding-top: 0.8rem;
+      text-transform: capitalize;
+    }
+
+    p {
+      padding-bottom: 2rem;
+      text-transform: capitalize;
+    }
   }
 }

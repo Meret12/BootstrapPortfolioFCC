@@ -10928,7 +10928,7 @@ textarea.form-control-lg {
 .testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2rem 1.25rem;
-  border-radius: 0.62rem;
+  border-radius: 0.625rem;
   height: auto;
   text-align: center;
 }
@@ -10949,6 +10949,21 @@ textarea.form-control-lg {
 }
 .testimonials__picture img {
   border: 0.325rem solid rgba(153, 38, 240, 0.7);
+}
+.testimonials__name {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+.testimonials__name h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.testimonials__name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
