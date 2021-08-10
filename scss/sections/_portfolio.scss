@@ -35,9 +35,9 @@
       color: $white;
       @include absoluteCenter;
 
-      h4 [
+      h4 {
       text-transform: uppercase;
-      ]
+      }
     }
   }
   &:hover {

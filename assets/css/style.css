@@ -1,10 +1,10 @@
-/* Error: expected "{".
+/* Error: Undefined mixin.
  *    ,
- * 39 |       text-transform: uppercase;
- *    |                                ^
+ * 36 |       @include absoluteCenter;
+ *    |       ^^^^^^^^^^^^^^^^^^^^^^^
  *    '
- *   scss\sections\_portfolio.scss 39:32  @use
- *   scss\style.scss 18:1                 root stylesheet */
+ *   scss\sections\_portfolio.scss 36:7  @use
+ *   scss\style.scss 18:1                root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 39 \2502        text-transform: uppercase;\d\a    \2502                                 ^\a    \2575 \a   scss\\sections\\_portfolio.scss 39:32  @use\a   scss\\style.scss 18:1                 root stylesheet';
+  content: "Error: Undefined mixin.\a    \2577 \a 36 \2502        @include absoluteCenter;\d\a    \2502        ^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\sections\\_portfolio.scss 36:7  @use\a   scss\\style.scss 18:1                root stylesheet";
 }
