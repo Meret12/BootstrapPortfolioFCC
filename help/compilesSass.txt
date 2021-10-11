@@ -1,0 +1,3 @@
+in order to run this site you need to type
+npm run compile:sass
+in GIT BASH terminal.
