@@ -11070,6 +11070,7 @@ textarea.form-control-lg {
 }
 .contact-box__icon {
   width: 2rem;
+  padding-top: 0.5rem;
 }
 @media (min-width: 576px) {
   .contact-box__icon {
@@ -11087,17 +11088,17 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .contact-box__info--title {
-    width: 1.4rem;
+    font-size: 1.4rem;
   }
 }
 .contact-box__info--subtitle {
   color: #6c757d;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 @media (min-width: 576px) {
   .contact-box__info--subtitle {
-    width: 1rem;
+    font-size: 1rem;
   }
 }
 
