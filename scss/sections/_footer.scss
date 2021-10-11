@@ -17,6 +17,7 @@
     @include media-breakpoint-up(sm) {
       width: 4rem;
     }
+
   }
 
   &__info {
@@ -33,6 +34,8 @@
         width: 1.4rem;
     }
 
+  }
+
     &--subtitle {
       color: $gray-600;
       text-decoration: none;
@@ -40,6 +43,8 @@
 
       @include media-breakpoint-up(sm) {
         width: 1rem;
+      }
+
     }
   }
 }
