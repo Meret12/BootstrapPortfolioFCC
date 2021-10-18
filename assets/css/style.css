@@ -11115,4 +11115,18 @@ textarea.form-control-lg {
   }
 }
 
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
