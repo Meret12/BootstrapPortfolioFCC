@@ -110,3 +110,15 @@
     }
   }
 }
+
+
+// STYLE THE BACK TO TOP BUTTON
+
+.back-to-top {
+  position: fixed;
+  width: 4rem;
+  height: 3rem;
+  right: 1.876rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+}

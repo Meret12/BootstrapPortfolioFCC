@@ -11148,4 +11148,13 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
+.back-to-top {
+  position: fixed;
+  width: 4rem;
+  height: 3rem;
+  right: 1.876rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+}
+
 /*# sourceMappingURL=style.css.map */
